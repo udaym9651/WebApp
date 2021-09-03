@@ -1,4 +1,4 @@
-library 'shared-libs'
+library 'my-shared-library'
 
 buildmyapp (
   buidVersion: '1.0.234'
