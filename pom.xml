@@ -11,6 +11,10 @@
 		<!-- <github.global.server>github</github.global.server> -->
 		<!-- <argLine>-XX:MaxPermSize=512m</argLine> -->
 	</properties>
+	<properties>
+     		<maven.compiler.source>1.8</maven.compiler.source>
+     		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 	<scm>
 		<url>https://github.com/venkatasykam/DevOpsWebApp.git</url>
 		<connection>scm:git:https://github.com/venkatasykam/DevOpsWebApp.git</connection>
