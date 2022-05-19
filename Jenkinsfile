@@ -4,7 +4,8 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        sh 'mvn clean install'
+        sh 'mvn clean package'
+        archiveArtifacts artifacts: '**/target/*.jar'
       }
     
     }
